@@ -5,6 +5,7 @@ import { Login } from "../components/pages/Login";
 import { Setting } from "../components/pages/Setting";
 import { UserManegement } from "../components/pages/UserManagement";
 import { Page404 } from "../components/pages/Page404";
+import { HeaderLayout } from "../components/templates/HeaderLayout";
 
 export const Router: VFC = memo(() => {
   return (
