@@ -5,24 +5,19 @@ import { Page404 } from "../components/pages/Page404";
 
 export const homeRoutes = [
   {
-    path: "/",
-    children: [
-      {
-        psth: "/home",
-        element: <Home />
-      },
-      {
-        psth: "/user_management",
-        element: <UserManagement />
-      },
-      {
-        psth: "/setting",
-        element: <Setting />
-      },
-      {
-        psth: "*",
-        element: <Page404 />
-      }
-    ]
+    psth: "/home",
+    element: <Home />
+  },
+  {
+    psth: "/user_management",
+    element: <UserManagement />
+  },
+  {
+    psth: "/setting",
+    element: <Setting />
+  },
+  {
+    psth: "*",
+    element: <Page404 />
   }
 ];
