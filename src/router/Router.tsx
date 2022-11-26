@@ -4,8 +4,7 @@ import { Home } from "../components/pages/Home";
 import { Login } from "../components/pages/Login";
 import { Setting } from "../components/pages/Setting";
 import { UserManagement } from "../components/pages/UserManagement";
-import { Page404 } from "../components/pages/Page404";
-// import { homeRoutes } from "../HomeRoutes";
+import { Page404 } from "../components/pages/Page404"; // import { homeRoutes } from "../HomeRoutes";
 import { HeaderLayout } from "../components/templates/HeaderLayout";
 
 export const Router: VFC = memo(() => {
