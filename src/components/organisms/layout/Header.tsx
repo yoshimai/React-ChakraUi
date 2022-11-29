@@ -11,13 +11,10 @@ export const Header: VFC = memo(() => {
   const navigate = useNavigate();
 
   const onClickHome = useCallback(() => navigate("/home"), [navigate]);
-  const onClickUserManagement = useCallback(
-    () => navigate("/home/user_management"),
-    [navigate]
-  );
-  const onClickSetting = useCallback(() => navigate("/home/setting"), [
+  const onClickUserManagement = useCallback(() => navigate("user_management"), [
     navigate
   ]);
+  const onClickSetting = useCallback(() => navigate("setting"), [navigate]);
 
   return (
     <>
